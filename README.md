@@ -40,10 +40,11 @@ It is recommended to use a virtual environment to isolate dependencies. Follow t
 Install required python packages by running
 ```
 pip install -r requirements.txt
+```
 
 
 ## Run the python files
-Update the ip address in both files, and then run them
+Update the ip address (host_ip) in both files, and then run them
 ```
 python server.py
 ```
