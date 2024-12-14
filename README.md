@@ -13,27 +13,27 @@ You can generate them using OpenSSL with the following command:
 
 ### Recommended: Virtual Environment Setup
 
-    It is recommended to use a virtual environment to isolate dependencies. Follow these steps to set up the environment:
+It is recommended to use a virtual environment to isolate dependencies. Follow these steps to set up the environment:
 
-    1. **Install Python 3.10+** (if not already installed). You can download it from [python.org](https://www.python.org/downloads/).
+1. **Install Python 3.10+** (if not already installed). You can download it from [python.org](https://www.python.org/downloads/).
 
-    2. **Create a virtual environment**:
-    In your project directory, create a virtual environment using Python 3.10:
+2. **Create a virtual environment**:
+In your project directory, create a virtual environment using Python 3.10:
+```bash
+python3.10 -m venv venv
+```
+
+3. **Activate the virtual environment**:
+    
+    On macOS/Linux:
     ```bash
-    python3.10 -m venv venv
+    source venv/bin/activate
     ```
 
-    3. **Activate the virtual environment**:
-        
-        On macOS/Linux:
-        ```bash
-        source venv/bin/activate
-        ```
-
-        On Windows:
-        ```bash
-        venv\Scripts\activate
-    ```
+    On Windows:
+    ```bash
+    venv\Scripts\activate
+```
 
 
 Install required python packages by running
