@@ -36,4 +36,4 @@ while True:
         key = cv2.waitKey(10)
         if key == 13:
             break
-    client_socket.close()
+    client_socket.close() 
