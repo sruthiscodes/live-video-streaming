@@ -1,5 +1,5 @@
 # Secure Video Streaming over SSL with Python
-This project demonstrates live video streaming over a secure SSL connection between a server and a client using Python. The server captures video frames from a webcam and sends them to the client over an encrypted connection. The client receives and displays the video feed.
+This project demonstrates live video streaming over a secure SSL connection between a server and client(s), using Python. 
 
 ## Requirements
 1. **Python 3.x**
